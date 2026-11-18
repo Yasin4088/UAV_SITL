@@ -1,0 +1,1840 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <world name="forest_thin_dense">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <scene>
+      <shadows>0</shadows>
+    </scene>
+    <model name="forest">
+      <static>true</static>
+      <link name="tree0">
+        <pose>5.3137748040081085 8.547340682613324 0 0 0 3.2701853118226225 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.6580441917452821 0.6580441917452821 0.6580441917452821</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.6580441917452821 0.6580441917452821 0.6580441917452821</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree1">
+        <pose>-4.584934786673575 0.8759677311848701 0 0 0 3.6738167231016954 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree1.dae</uri>
+              <scale>0.7164997188952191 0.7164997188952191 0.7164997188952191</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree1.dae</uri>
+              <scale>0.7164997188952191 0.7164997188952191 0.7164997188952191</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree2">
+        <pose>-7.1868841919601305 -5.178989551661678 0 0 0 1.6833334808207794 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.375350756505952 0.375350756505952 0.375350756505952</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.375350756505952 0.375350756505952 0.375350756505952</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree3">
+        <pose>11.916043306380153 -14.314181379398702 0 0 0 3.880517453458028 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.9154018420692638 0.9154018420692638 0.9154018420692638</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.9154018420692638 0.9154018420692638 0.9154018420692638</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree4">
+        <pose>-11.583252502431886 -1.331790673309163 0 0 0 5.441833112915535 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree1.dae</uri>
+              <scale>0.3515911330442255 0.3515911330442255 0.3515911330442255</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree1.dae</uri>
+              <scale>0.3515911330442255 0.3515911330442255 0.3515911330442255</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree5">
+        <pose>-2.566872235357181 -12.019247581266477 0 0 0 4.574126763395177 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.8289641983580409 0.8289641983580409 0.8289641983580409</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.8289641983580409 0.8289641983580409 0.8289641983580409</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree6">
+        <pose>-1.7909595389017579 14.67636562117579 0 0 0 3.5860438276497906 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.6516106678818523 0.6516106678818523 0.6516106678818523</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.6516106678818523 0.6516106678818523 0.6516106678818523</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree7">
+        <pose>8.758890696705755 13.617450536726356 0 0 0 1.4629850118510765 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree6.dae</uri>
+              <scale>0.6816763527961025 0.6816763527961025 0.6816763527961025</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree6.dae</uri>
+              <scale>0.6816763527961025 0.6816763527961025 0.6816763527961025</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree8">
+        <pose>-11.76846501198242 -8.780207770255187 0 0 0 1.2033142610115233 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.3942580695332744 0.3942580695332744 0.3942580695332744</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.3942580695332744 0.3942580695332744 0.3942580695332744</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree9">
+        <pose>-11.860744234796872 6.160795716509828 0 0 0 0.0436989292616379 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.6181499036709714 0.6181499036709714 0.6181499036709714</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.6181499036709714 0.6181499036709714 0.6181499036709714</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree10">
+        <pose>2.82398256356986 0.6052481711343098 0 0 0 5.181037080936577 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.645801359849796 0.645801359849796 0.645801359849796</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.645801359849796 0.645801359849796 0.645801359849796</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree11">
+        <pose>11.888194205310153 10.982105027921378 0 0 0 5.595394676633298 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree1.dae</uri>
+              <scale>0.4714184870129211 0.4714184870129211 0.4714184870129211</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree1.dae</uri>
+              <scale>0.4714184870129211 0.4714184870129211 0.4714184870129211</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree12">
+        <pose>-1.0206734292332147 -1.445954491125459 0 0 0 4.246207860865578 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.7567026844922929 0.7567026844922929 0.7567026844922929</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.7567026844922929 0.7567026844922929 0.7567026844922929</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree13">
+        <pose>-0.7313187531289742 -1.5225560806490535 0 0 0 1.8416991566331002 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.41973190771585644 0.41973190771585644 0.41973190771585644</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.41973190771585644 0.41973190771585644 0.41973190771585644</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree14">
+        <pose>-5.964676668872247 5.321102089919616 0 0 0 0.2847959798847159 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree6.dae</uri>
+              <scale>0.4464442433260021 0.4464442433260021 0.4464442433260021</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree6.dae</uri>
+              <scale>0.4464442433260021 0.4464442433260021 0.4464442433260021</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree15">
+        <pose>13.950361032496453 -2.3819491040761225 0 0 0 2.9089336763781226 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.628102466866802 0.628102466866802 0.628102466866802</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.628102466866802 0.628102466866802 0.628102466866802</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree16">
+        <pose>4.693502774052167 -14.516528656667093 0 0 0 2.7443451207855043 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree1.dae</uri>
+              <scale>0.4923599135336512 0.4923599135336512 0.4923599135336512</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree1.dae</uri>
+              <scale>0.4923599135336512 0.4923599135336512 0.4923599135336512</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree17">
+        <pose>-11.20881888915469 -2.096676017528642 0 0 0 5.54859765769537 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.8821500486027878 0.8821500486027878 0.8821500486027878</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.8821500486027878 0.8821500486027878 0.8821500486027878</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree18">
+        <pose>3.610303506926165 11.362644284544306 0 0 0 4.297550345091763 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree6.dae</uri>
+              <scale>0.3475832946612868 0.3475832946612868 0.3475832946612868</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree6.dae</uri>
+              <scale>0.3475832946612868 0.3475832946612868 0.3475832946612868</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree19">
+        <pose>13.381087847173447 -10.404063684768312 0 0 0 5.517469472289863 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.7345447976647629 0.7345447976647629 0.7345447976647629</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.7345447976647629 0.7345447976647629 0.7345447976647629</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree20">
+        <pose>13.504244604041435 12.868609437192454 0 0 0 3.5784714655065026 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.7121958199859366 0.7121958199859366 0.7121958199859366</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.7121958199859366 0.7121958199859366 0.7121958199859366</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree21">
+        <pose>-8.68120142870802 0.2742865646116197 0 0 0 0.38669058571338133 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree6.dae</uri>
+              <scale>0.8422173931944286 0.8422173931944286 0.8422173931944286</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree6.dae</uri>
+              <scale>0.8422173931944286 0.8422173931944286 0.8422173931944286</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree22">
+        <pose>10.664552497249169 -13.075107068475427 0 0 0 1.8464323538009146 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree5.dae</uri>
+              <scale>0.6261856341823291 0.6261856341823291 0.6261856341823291</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree5.dae</uri>
+              <scale>0.6261856341823291 0.6261856341823291 0.6261856341823291</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree23">
+        <pose>-10.923371317717942 -5.297857492234341 0 0 0 3.221747915521709 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree6.dae</uri>
+              <scale>0.4828394211343576 0.4828394211343576 0.4828394211343576</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree6.dae</uri>
+              <scale>0.4828394211343576 0.4828394211343576 0.4828394211343576</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree24">
+        <pose>6.751092986296399 13.662061238146997 0 0 0 4.027376758647093 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.776892989651299 0.776892989651299 0.776892989651299</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.776892989651299 0.776892989651299 0.776892989651299</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree25">
+        <pose>4.379681983153006 2.0759225851109804 0 0 0 5.1900033867561275 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.9549653779248048 0.9549653779248048 0.9549653779248048</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.9549653779248048 0.9549653779248048 0.9549653779248048</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree26">
+        <pose>-10.367421350057596 -1.2500641078204406 0 0 0 5.84362430688974 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree1.dae</uri>
+              <scale>0.6590679780666815 0.6590679780666815 0.6590679780666815</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree1.dae</uri>
+              <scale>0.6590679780666815 0.6590679780666815 0.6590679780666815</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree27">
+        <pose>-7.1847738957206255 -0.994427719139507 0 0 0 2.382906844681098 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.5270014161670635 0.5270014161670635 0.5270014161670635</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.5270014161670635 0.5270014161670635 0.5270014161670635</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree28">
+        <pose>-9.38764249267189 10.799905622400093 0 0 0 2.083955265090623 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree6.dae</uri>
+              <scale>0.8041370553241927 0.8041370553241927 0.8041370553241927</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree6.dae</uri>
+              <scale>0.8041370553241927 0.8041370553241927 0.8041370553241927</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree29">
+        <pose>5.030764563212095 0.8652299902776797 0 0 0 2.5959666518469557 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.32853072367775427 0.32853072367775427 0.32853072367775427</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.32853072367775427 0.32853072367775427 0.32853072367775427</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree30">
+        <pose>-12.189827639535062 -1.8930592312490369 0 0 0 2.8771408631496618 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree1.dae</uri>
+              <scale>0.8116963554693164 0.8116963554693164 0.8116963554693164</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree1.dae</uri>
+              <scale>0.8116963554693164 0.8116963554693164 0.8116963554693164</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree31">
+        <pose>-6.126785592285419 -6.771891991422471 0 0 0 6.140410224476633 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.5742974528836915 0.5742974528836915 0.5742974528836915</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.5742974528836915 0.5742974528836915 0.5742974528836915</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree32">
+        <pose>-10.031479045026488 4.917192693422567 0 0 0 3.4838435369787155 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree5.dae</uri>
+              <scale>0.7969221846575776 0.7969221846575776 0.7969221846575776</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree5.dae</uri>
+              <scale>0.7969221846575776 0.7969221846575776 0.7969221846575776</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree33">
+        <pose>-12.269452689468435 -13.906823339858764 0 0 0 2.7392161252100684 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.8011116115587138 0.8011116115587138 0.8011116115587138</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.8011116115587138 0.8011116115587138 0.8011116115587138</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree34">
+        <pose>3.394838271535228 -7.640867037661815 0 0 0 4.590818921878852 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.8850097441918579 0.8850097441918579 0.8850097441918579</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.8850097441918579 0.8850097441918579 0.8850097441918579</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree35">
+        <pose>-9.264680933560658 -7.506200755581318 0 0 0 0.7637509357440107 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.8906973973728256 0.8906973973728256 0.8906973973728256</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.8906973973728256 0.8906973973728256 0.8906973973728256</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree36">
+        <pose>-12.834357463985231 -1.5103589794144572 0 0 0 3.438411916108216 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.7051076856060821 0.7051076856060821 0.7051076856060821</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.7051076856060821 0.7051076856060821 0.7051076856060821</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree37">
+        <pose>7.166264307189358 -11.9006556994846 0 0 0 1.5141970917056446 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.3962916541285573 0.3962916541285573 0.3962916541285573</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.3962916541285573 0.3962916541285573 0.3962916541285573</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree38">
+        <pose>12.759763499870399 -8.36873697746767 0 0 0 2.811480432315634 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree5.dae</uri>
+              <scale>0.5128240260614614 0.5128240260614614 0.5128240260614614</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree5.dae</uri>
+              <scale>0.5128240260614614 0.5128240260614614 0.5128240260614614</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree39">
+        <pose>10.479269652474485 -1.8548284195052425 0 0 0 6.0945954672397376 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.7303075167882455 0.7303075167882455 0.7303075167882455</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.7303075167882455 0.7303075167882455 0.7303075167882455</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree40">
+        <pose>-11.221642258782587 0.6208223732433211 0 0 0 3.071754552538893 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.9618512159155328 0.9618512159155328 0.9618512159155328</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.9618512159155328 0.9618512159155328 0.9618512159155328</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree41">
+        <pose>-13.509108306742046 -2.2306723088500355 0 0 0 3.620637243642653 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree5.dae</uri>
+              <scale>0.7629115426285168 0.7629115426285168 0.7629115426285168</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree5.dae</uri>
+              <scale>0.7629115426285168 0.7629115426285168 0.7629115426285168</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree42">
+        <pose>-7.687744773262741 8.641698896818504 0 0 0 2.620060468660852 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree5.dae</uri>
+              <scale>0.395412296665947 0.395412296665947 0.395412296665947</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree5.dae</uri>
+              <scale>0.395412296665947 0.395412296665947 0.395412296665947</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree43">
+        <pose>-8.09809144820888 -1.2732097090579728 0 0 0 4.4942968538989065 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.6342307445421356 0.6342307445421356 0.6342307445421356</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.6342307445421356 0.6342307445421356 0.6342307445421356</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree44">
+        <pose>7.699639588977895 -1.8357830663726489 0 0 0 0.4044899475798559 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree1.dae</uri>
+              <scale>0.7718435346752949 0.7718435346752949 0.7718435346752949</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree1.dae</uri>
+              <scale>0.7718435346752949 0.7718435346752949 0.7718435346752949</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree45">
+        <pose>7.1555954758877895 10.24173569177654 0 0 0 5.901117126355128 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.4900291127999249 0.4900291127999249 0.4900291127999249</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.4900291127999249 0.4900291127999249 0.4900291127999249</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree46">
+        <pose>-10.087093917750199 0.615312471292226 0 0 0 1.6512839713602612 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree1.dae</uri>
+              <scale>0.6253543331942423 0.6253543331942423 0.6253543331942423</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree1.dae</uri>
+              <scale>0.6253543331942423 0.6253543331942423 0.6253543331942423</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree47">
+        <pose>-10.814102345310332 -9.814674311794263 0 0 0 5.077326793229284 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.488213037154849 0.488213037154849 0.488213037154849</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.488213037154849 0.488213037154849 0.488213037154849</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree48">
+        <pose>12.989495604833188 14.601041599973893 0 0 0 1.5646736194646378 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree1.dae</uri>
+              <scale>0.4262068520622351 0.4262068520622351 0.4262068520622351</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree1.dae</uri>
+              <scale>0.4262068520622351 0.4262068520622351 0.4262068520622351</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree49">
+        <pose>1.3313269460521298 -5.868150511532447 0 0 0 0.7635176404754203 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree1.dae</uri>
+              <scale>0.3341091995468262 0.3341091995468262 0.3341091995468262</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree1.dae</uri>
+              <scale>0.3341091995468262 0.3341091995468262 0.3341091995468262</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree50">
+        <pose>1.0242481063970992 -13.108520067816643 0 0 0 0.2213055232656231 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree6.dae</uri>
+              <scale>0.8736614805959191 0.8736614805959191 0.8736614805959191</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree6.dae</uri>
+              <scale>0.8736614805959191 0.8736614805959191 0.8736614805959191</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree51">
+        <pose>-0.24717353797507613 -3.8258598035363693 0 0 0 2.1153569917373263 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree1.dae</uri>
+              <scale>0.9615586638743225 0.9615586638743225 0.9615586638743225</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree1.dae</uri>
+              <scale>0.9615586638743225 0.9615586638743225 0.9615586638743225</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree52">
+        <pose>13.98797138236375 -13.330165734084936 0 0 0 2.2797277354190584 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree6.dae</uri>
+              <scale>0.4259206062660337 0.4259206062660337 0.4259206062660337</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree6.dae</uri>
+              <scale>0.4259206062660337 0.4259206062660337 0.4259206062660337</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree53">
+        <pose>-4.920735175429954 -4.439511615322155 0 0 0 4.502760900913759 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree5.dae</uri>
+              <scale>0.6267508817822484 0.6267508817822484 0.6267508817822484</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree5.dae</uri>
+              <scale>0.6267508817822484 0.6267508817822484 0.6267508817822484</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree54">
+        <pose>14.498183869927011 8.503764996429673 0 0 0 1.3116490277280053 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.7171735228584881 0.7171735228584881 0.7171735228584881</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.7171735228584881 0.7171735228584881 0.7171735228584881</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree55">
+        <pose>7.6451252940638454 -3.4107959310966347 0 0 0 0.11282521433209386 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree1.dae</uri>
+              <scale>0.6765971410536595 0.6765971410536595 0.6765971410536595</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree1.dae</uri>
+              <scale>0.6765971410536595 0.6765971410536595 0.6765971410536595</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree56">
+        <pose>-14.246594534913188 6.589366969724022 0 0 0 3.049858806124728 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.7680972957546816 0.7680972957546816 0.7680972957546816</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.7680972957546816 0.7680972957546816 0.7680972957546816</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree57">
+        <pose>-9.442153312227699 4.06197720391804 0 0 0 1.06840192298643 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.6742487717301127 0.6742487717301127 0.6742487717301127</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.6742487717301127 0.6742487717301127 0.6742487717301127</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree58">
+        <pose>-7.461678139303389 -10.072716851493286 0 0 0 3.063784957752598 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.9335917685471629 0.9335917685471629 0.9335917685471629</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.9335917685471629 0.9335917685471629 0.9335917685471629</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree59">
+        <pose>-8.787514968924295 -12.82600254113399 0 0 0 3.75014122639581 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree5.dae</uri>
+              <scale>0.606058888457345 0.606058888457345 0.606058888457345</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree5.dae</uri>
+              <scale>0.606058888457345 0.606058888457345 0.606058888457345</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree60">
+        <pose>-9.322400692676661 0.6458111446989605 0 0 0 3.9653173820844003 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.7145322364941447 0.7145322364941447 0.7145322364941447</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.7145322364941447 0.7145322364941447 0.7145322364941447</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree61">
+        <pose>12.232329326647264 9.926433108476143 0 0 0 0.26103522285464575 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.48402962529171556 0.48402962529171556 0.48402962529171556</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.48402962529171556 0.48402962529171556 0.48402962529171556</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree62">
+        <pose>10.24869800337406 -2.2302486445956564 0 0 0 1.1730191960739067 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree5.dae</uri>
+              <scale>0.9744733794585922 0.9744733794585922 0.9744733794585922</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree5.dae</uri>
+              <scale>0.9744733794585922 0.9744733794585922 0.9744733794585922</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree63">
+        <pose>-13.02384480237954 3.896076322740562 0 0 0 3.1440590596694857 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree5.dae</uri>
+              <scale>0.31697870793405064 0.31697870793405064 0.31697870793405064</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree5.dae</uri>
+              <scale>0.31697870793405064 0.31697870793405064 0.31697870793405064</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree64">
+        <pose>3.6023937129495707 5.227139990006865 0 0 0 3.649338340163248 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree6.dae</uri>
+              <scale>0.6642785513435518 0.6642785513435518 0.6642785513435518</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree6.dae</uri>
+              <scale>0.6642785513435518 0.6642785513435518 0.6642785513435518</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree65">
+        <pose>1.8794471648267042 12.13590520130673 0 0 0 2.8297031025658153 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree5.dae</uri>
+              <scale>0.8707902690146678 0.8707902690146678 0.8707902690146678</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree5.dae</uri>
+              <scale>0.8707902690146678 0.8707902690146678 0.8707902690146678</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree66">
+        <pose>-5.538043656770515 -0.5155793281356402 0 0 0 5.304902862642816 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree5.dae</uri>
+              <scale>0.6824886438876044 0.6824886438876044 0.6824886438876044</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree5.dae</uri>
+              <scale>0.6824886438876044 0.6824886438876044 0.6824886438876044</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree67">
+        <pose>12.942798524258347 -10.53355648049606 0 0 0 4.410071587734811 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.5746836045131811 0.5746836045131811 0.5746836045131811</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.5746836045131811 0.5746836045131811 0.5746836045131811</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree68">
+        <pose>-7.888724529674393 8.458013779410045 0 0 0 4.677869547868644 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree6.dae</uri>
+              <scale>0.8907237764046205 0.8907237764046205 0.8907237764046205</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree6.dae</uri>
+              <scale>0.8907237764046205 0.8907237764046205 0.8907237764046205</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree69">
+        <pose>-10.617364239884942 -3.097156725227448 0 0 0 3.965614668166254 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.6607793563251942 0.6607793563251942 0.6607793563251942</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.6607793563251942 0.6607793563251942 0.6607793563251942</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree70">
+        <pose>-13.739663479148794 14.311136651484237 0 0 0 5.384220182397082 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.9556053322686813 0.9556053322686813 0.9556053322686813</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.9556053322686813 0.9556053322686813 0.9556053322686813</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree71">
+        <pose>-10.232564061809846 -0.38232634545335564 0 0 0 2.753624819868913 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.9508983007975678 0.9508983007975678 0.9508983007975678</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.9508983007975678 0.9508983007975678 0.9508983007975678</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree72">
+        <pose>8.894987467467534 9.92979824437661 0 0 0 1.9215265835814774 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.6413856630807964 0.6413856630807964 0.6413856630807964</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.6413856630807964 0.6413856630807964 0.6413856630807964</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree73">
+        <pose>14.443052846668895 12.789636343909443 0 0 0 5.929879046239454 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.7687036984693794 0.7687036984693794 0.7687036984693794</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.7687036984693794 0.7687036984693794 0.7687036984693794</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree74">
+        <pose>1.5243934275945996 -8.941649489733933 0 0 0 1.045678066630108 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.4326466128913018 0.4326466128913018 0.4326466128913018</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.4326466128913018 0.4326466128913018 0.4326466128913018</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree75">
+        <pose>5.082614334796457 -13.971527574083174 0 0 0 1.834891145924437 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree5.dae</uri>
+              <scale>0.3519782703059421 0.3519782703059421 0.3519782703059421</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree5.dae</uri>
+              <scale>0.3519782703059421 0.3519782703059421 0.3519782703059421</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree76">
+        <pose>6.7563623208292505 13.244687650177433 0 0 0 4.01690763112803 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.6724129869226547 0.6724129869226547 0.6724129869226547</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree4.dae</uri>
+              <scale>0.6724129869226547 0.6724129869226547 0.6724129869226547</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree77">
+        <pose>-1.382481720713054 8.602363040024919 0 0 0 0.4315231049263071 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree5.dae</uri>
+              <scale>0.8304804687936511 0.8304804687936511 0.8304804687936511</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree5.dae</uri>
+              <scale>0.8304804687936511 0.8304804687936511 0.8304804687936511</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree78">
+        <pose>-4.402629779654925 -4.091854656597819 0 0 0 1.2325379408903305 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.4059159281483258 0.4059159281483258 0.4059159281483258</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.4059159281483258 0.4059159281483258 0.4059159281483258</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree79">
+        <pose>13.765011720369916 -6.803729940267264 0 0 0 2.3640656679619863 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.5357625940970216 0.5357625940970216 0.5357625940970216</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.5357625940970216 0.5357625940970216 0.5357625940970216</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree80">
+        <pose>-4.405065637522458 2.3888110000821605 0 0 0 0.21094227393506734 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.6234044517015238 0.6234044517015238 0.6234044517015238</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.6234044517015238 0.6234044517015238 0.6234044517015238</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree81">
+        <pose>4.05129399426567 13.131212617744747 0 0 0 4.081684834441465 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree1.dae</uri>
+              <scale>0.6095243569786604 0.6095243569786604 0.6095243569786604</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree1.dae</uri>
+              <scale>0.6095243569786604 0.6095243569786604 0.6095243569786604</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree82">
+        <pose>-5.3398951522672125 -13.9695624586294 0 0 0 0.8371732272094226 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.7064771346223638 0.7064771346223638 0.7064771346223638</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.7064771346223638 0.7064771346223638 0.7064771346223638</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree83">
+        <pose>-4.02745862304616 1.4873377873201008 0 0 0 5.179465551342298 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.9647635482836006 0.9647635482836006 0.9647635482836006</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.9647635482836006 0.9647635482836006 0.9647635482836006</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree84">
+        <pose>13.506713842740648 9.662159012296218 0 0 0 6.023729146587988 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree6.dae</uri>
+              <scale>0.4236311911591284 0.4236311911591284 0.4236311911591284</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree6.dae</uri>
+              <scale>0.4236311911591284 0.4236311911591284 0.4236311911591284</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree85">
+        <pose>9.228801847025146 -7.67851781453559 0 0 0 3.0690820452678502 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.7645064489494918 0.7645064489494918 0.7645064489494918</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.7645064489494918 0.7645064489494918 0.7645064489494918</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree86">
+        <pose>13.356333769217148 7.469833818790292 0 0 0 2.9097271404670324 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.44729290804921273 0.44729290804921273 0.44729290804921273</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.44729290804921273 0.44729290804921273 0.44729290804921273</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree87">
+        <pose>11.582262503910002 7.7822642710121315 0 0 0 4.731758980842867 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.5173373237588693 0.5173373237588693 0.5173373237588693</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree3.dae</uri>
+              <scale>0.5173373237588693 0.5173373237588693 0.5173373237588693</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree88">
+        <pose>-2.0000280152198044 -5.484293333788575 0 0 0 5.200541876048441 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.9809293547414921 0.9809293547414921 0.9809293547414921</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree2.dae</uri>
+              <scale>0.9809293547414921 0.9809293547414921 0.9809293547414921</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+      <link name="tree89">
+        <pose>11.524012612853813 -9.718214827308291 0 0 0 3.5281706105471358 </pose>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree6.dae</uri>
+              <scale>0.9958853178431777 0.9958853178431777 0.9958853178431777</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/robot/catkin_ws/worlds/models/forest_gen_low_res/Tree6.dae</uri>
+              <scale>0.9958853178431777 0.9958853178431777 0.9958853178431777</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>0</max_contacts>
+        </collision>
+      </link>
+    </model>
+    <!-- Plugins -->
+    <!-- Physics -->
+    <physics name="default_physics" default="0" type="ode">
+      <max_step_size>0.01</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>100</real_time_update_rate>
+      <gravity>0 0 -9.8</gravity>
+      <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
+      <ode>
+        <solver>
+          <type>quick</type>
+          <iters>1000</iters>
+          <sor>1.3</sor>
+          <use_dynamic_moi_rescaling>0</use_dynamic_moi_rescaling>
+        </solver>
+        <constraints>
+          <cfm>0</cfm>
+          <erp>0.2</erp>
+          <contact_max_correcting_vel>100</contact_max_correcting_vel>
+          <contact_surface_layer>0.001</contact_surface_layer>
+        </constraints>
+      </ode>
+    </physics>
+  </world>
+</sdf>
